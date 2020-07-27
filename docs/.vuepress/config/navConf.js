@@ -15,6 +15,6 @@ module.exports = [
     { text: '踩过的坑', link: '' },
     { text: '大牛总结面试题', link: 'https://blog.poetries.top/FE-Interview-Questions/docs/base.html#' },
     { text: '留言板', link: '' },
-    { text: '关于我', link: '' },
+    { text: '关于我', link: '/all/aboutMe/' },
     { text: 'github', link: 'https://github.com/LiuMinGit/blog' },
 ]
