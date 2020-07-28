@@ -5,7 +5,6 @@ const sidebarConf = require("./config/sidebarConf");
 
 
 module.exports = {
-    sidebar: false,
     base: "/blogs/",
     title: "那一刻的技术博客",
     description: "刘某人技术博客",
@@ -15,6 +14,7 @@ module.exports = {
         lastUpdated: '更新时间', // string | boolean
         logo: '/assets/img/nyk.jpg',
         nav: navConf,
-        sidebar: sidebarConf
+        sidebar: sidebarConf,
+        sidebarDepth: 2
     }
 }

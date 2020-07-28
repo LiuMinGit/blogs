@@ -6,4 +6,5 @@ sidebar: false
 > 坚持学习的前端仔,欢迎戳我一起交流
 - wx: min18296780167
 - qq: 1564627624
-- email: 952418035@qq.com
+- email: lm_0167@163.com
+- CSDN: ~那一刻~

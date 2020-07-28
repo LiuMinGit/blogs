@@ -1,13 +1,64 @@
 module.exports = [
     {
-        title: 'html',   // 必要的
-        path: '/html/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
+        title: 'HTML',   
         children: [
-            '/all/html/html语义化',
-            '/all/html/html元信息',
-            '/all/html/html5新特性',
+            '/all/HTML/html语义化',
+            '/all/HTML/html元信息',
+            '/all/HTML/html5新特性',
+        ]
+    },
+    {
+        title: 'CSS',  
+        children: [
+            '/all/CSS/',
+        ]
+    },
+    {
+        title: 'JS',  
+        children: [
+            '/all/JS/',
+        ]
+    },
+    {
+        title: 'jQuery',  
+        children: [
+            '/all/jQuery/',
+        ]
+    },
+    {
+        title: 'Ajax',  
+        children: [
+            '/all/Ajax/',
+        ]
+    },
+    {
+        title: 'Node',  
+        children: [
+            '/all/Node/',
+        ]
+    },
+    {
+        title: 'Bootstrap',  
+        children: [
+            '/all/Bootstrap/',
+        ]
+    },
+    {
+        title: 'Vue',  
+        children: [
+            '/all/Vue/',
+        ]
+    },
+    {
+        title: 'React',  
+        children: [
+            '/all/React/',
+        ]
+    },
+    {
+        title: '小程序',  
+        children: [
+            '/all/小程序/',
         ]
     },
 ]
