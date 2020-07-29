@@ -15,6 +15,5 @@ module.exports = {
         logo: '/assets/img/nyk.jpg',
         nav: navConf,
         sidebar: sidebarConf,
-        sidebarDepth: 2
     }
 }
