@@ -20,7 +20,7 @@ module.exports = [
         items: [
             { text: '项目', link: '/实战篇/项目/' },
             { text: '案列', link: '/实战篇/案例/' },
-            { text: '博客', link: '/实战篇/博客/' }
+            { text: '面试常问', link: '/实战篇/面试/JS基础' }
         ]
     },
     { text: '踩过的坑', link: '/基础篇/踩过的坑/' },
