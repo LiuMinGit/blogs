@@ -32,16 +32,16 @@ title: ES6
 
 ## ES6模块化导入、导出语法 
 #### Node.js中的模块化标准是CommonJS
-- 导入:require
-- 暴露:module.exports
+- 导入: require
+- 暴露: module.exports
 
 #### ES6的模块化语法
 > ES6默认语法
-- 导入:import xxx from '模块'
-- 导出（暴露）:export default 名字
+- 导入: import xxx from '模块'
+- 导出(暴露): export default 名字
 
 > 按名字导入导出
-- 导入:import {名字} from '模块'
+- 导入: import {名字} from '模块'
 - 导出: export const 名字 = 值
 ::: tip 提示
 - 导出时必须要赋值
@@ -50,6 +50,11 @@ title: ES6
 - 导入的时候 import {} 加了大括号，都是按名字找用名字导出的, 不加{}都是找默认导出
 - 按名字导入，名字必须跟导出的一样， 默认导入随便写名字
 :::
+
+## 构造函数的this
+
+
+
 
 
 ## 防抖节流

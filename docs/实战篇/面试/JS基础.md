@@ -37,6 +37,30 @@ alert(str.trim());
 | concat() | 方法通过合并（连接）现有数组来创建一个新数组 | 新数组 = 数组1.concat(数组2) |
 
 
+## 数组去重
+```js
+<script>
+    function fn(arr) {
+        let arrNew = [];
+        for (let i = 0; i < arr.length; i++) {
+            if (arrNew.indexOf(arr[i]) == -1) {
+                arrNew.push(arr[i]);
+            }
+        }
+        console.log(arrNew); //0,1,2
+    }
+    fn([0, 1, 2, 1, 2])
+</script>
+```
+```js
+function newArr(arr) {
+        return Array.from(new Set(arr))
+    }
+    var arr = [0, 1, 2, 0, 1];
+	console.log(newArr(arr)) // 0,1,2
+```
+
+
 <!-- ## 常用对象方法
 | 方法 | 定义 | 示例 |
 | :----| :---- | :---- |
