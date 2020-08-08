@@ -10,5 +10,8 @@ module.exports = {
         'HTML/html语义化',
         'HTML/html元信息',
         'HTML/html5新特性',
+    ],
+    "/基础篇/": [
+        'Vue/vuex',
     ]
 }
