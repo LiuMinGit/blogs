@@ -159,7 +159,7 @@ methods: {
 }
 ```
 
-## 组件访问State数据的两种方式
+## 组件访问getters的两种方式
 - 第一种
 ``` js
 this.$store.getters.名称

@@ -13,5 +13,6 @@ module.exports = {
     ],
     "/基础篇/": [
         'Vue/vuex',
+        'Vue/mixin',
     ]
 }

@@ -10,7 +10,7 @@ module.exports = [
             { text: 'Ajax', link: '/基础篇/Ajax/' },
             { text: 'Node', link: '/基础篇/Node/' },
             { text: 'Bootstrap', link: '/基础篇/Bootstrap/' },
-            { text: 'Vue', link: '/基础篇/Vue/' },
+            { text: 'Vue', link: '/基础篇/Vue/vuex' },
             { text: 'React', link: '/基础篇/React/' },
             { text: '小程序', link: '/基础篇/小程序/' }
         ]

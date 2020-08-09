@@ -35,6 +35,7 @@ alert(str.trim());
 | shift() | 方法会删除首个数组元素 | 数组.shift() |
 | unshift() | 方法（在开头）向数组添加新元素 | 数组.unshift("Lemon") |
 | concat() | 方法通过合并（连接）现有数组来创建一个新数组 | 新数组 = 数组1.concat(数组2) |
+| findIndex() | 传入一个回调函数，找到数组中符合当前搜索规则的第一个元素，返回它的下标，终止搜索 | arr.findIndex(n => typeof n === "number") |
 
 
 ## 数组去重
