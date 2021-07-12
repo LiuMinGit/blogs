@@ -6,7 +6,6 @@ const sidebarConf = require("./config/sidebarConf");
 
 module.exports = {
     base: "/blogs/",
-    base: "./",
     title: "那一刻的技术博客",
     description: "刘某人技术博客",
     head: headConf,
