@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/LiuMinGit/blog#readme",
   "dependencies": {
-    "moment": "^2.27.0"
+    "moment": "^2.29.4"
   },
   "directories": {
     "doc": "docs"
